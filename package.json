@@ -1,19 +1,20 @@
 {
-  "name": "hexo-theme-material-indigo",
+  "name": "hexo-theme-axen",
   "version": "1.4.3",
   "description": "Material Design theme for Hexo.",
   "keywords": [
     "hexo",
     "theme",
-    "material design"
+    "material design",
+    "axen"
   ],
   "author": {
-    "name": "yusen",
-    "email": "634206017@qq.com"
+    "name": "axen",
+    "email": "njun@qq.com"
   },
   "license": "MIT",
   "repository": {
-    "url": "git+https://github.com/yscoder/hexo-theme-indigo.git",
+    "url": "git+https://github.com/axen/hexo-theme-axen.git",
     "type": "git"
   }
 }

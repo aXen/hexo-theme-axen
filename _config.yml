@@ -19,10 +19,10 @@ menu:
     text: Categories
     url: /categories
   github:
-    url: https://github.com/yscoder
+    url: https://github.com/axen
     target: _blank
   weibo:
-    url: http://www.weibo.com/ysweb
+    url: http://www.weibo.com/ningj3
     target: _blank
   link:
     text: 测试
@@ -36,7 +36,7 @@ avatar: /img/avatar.jpg
 favicon: /favicon.ico
 
 # email
-email: 634206017@qq.com
+email: njun@qq.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#3F51B5'
