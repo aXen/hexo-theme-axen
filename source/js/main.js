@@ -110,7 +110,7 @@
 
             toc.querySelector('a[href="#' + titles[0].id + '"]').parentNode.classList.add('active');
 
-            forEach.call($$('a[href^="#"]'), function (el) {
+            forEach.call($$('#post-toc a[href^="#"]'), function (el) {
 
                 el.addEventListener('click', function (e) {
                     e.preventDefault();
