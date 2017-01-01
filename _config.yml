@@ -1,5 +1,5 @@
-# hexo-theme-indigo
-# https://github.com/yscoder/hexo-theme-indigo
+# hexo-theme-axen
+# https://github.com/axen/hexo-theme-axen
 
 # 添加新菜单项遵循以下规则
 # menu:
@@ -9,7 +9,7 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: 主页
+    text: Home
     url: /
   archives:
     url: /archives
@@ -21,12 +21,8 @@ menu:
   github:
     url: https://github.com/axen
     target: _blank
-  weibo:
-    url: http://www.weibo.com/ningj3
-    target: _blank
-  link:
-    text: 测试
-    url: /custom
+  about:
+    url: /about
 
 rss: /atom.xml
 
