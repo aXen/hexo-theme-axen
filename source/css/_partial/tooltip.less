@@ -18,7 +18,7 @@
 	white-space:pre;
 	pointer-events:none;
 	content:attr(aria-label);
-	background:rgba(0,0,0,0.8);
+	background:fade(@primaryColor, 90%);
 	border-radius:3px;
 	opacity:0
 }
@@ -73,6 +73,7 @@
 .tooltipped-multiline:hover::after,.tooltipped-multiline:active::after,.tooltipped-multiline:focus::after {
 	display:table-cell
 }
+/*Location & multiline*/
 .tooltipped-s::after,.tooltipped-se::after,.tooltipped-sw::after {
 	top:100%;
 	right:50%;
@@ -163,4 +164,14 @@
 }
 .tooltipped-multiline.tooltipped-w::after,.tooltipped-multiline.tooltipped-e::after {
 	right:100%
+}
+@media screen and (min-width:0) {
+	.tooltipped-multiline::after {
+	width:250px
+}
+}.tooltipped-sticky::before,.tooltipped-sticky::after {
+	display:inline-block
+}
+.tooltipped-sticky.tooltipped-multiline::after {
+	display:table-cell
 }

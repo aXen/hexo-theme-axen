@@ -1,5 +1,5 @@
 const version = require('../package.json').version
-hexo.extend.helper.register('theme_version', () => version)
+hexo.extend.helper.register('theme_version', () => version)  // need ES6
 
 function renderImage(src, alt = '', title = '') {
     return `<figure class="image-bubble">
